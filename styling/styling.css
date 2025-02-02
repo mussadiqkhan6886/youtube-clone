@@ -1,0 +1,108 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 30px;
+}
+
+.details{
+    display: grid;
+    grid-template-columns: 45px 1fr;
+    margin-top: 7px;
+}
+
+.img{
+    width: 100%;
+}
+
+.statement{
+    margin-left: 7px;
+}
+
+.channal-div{
+    width: 100%;
+}
+.channal-div2{
+    position: relative;
+}
+.popup{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    background-color: white;
+    box-shadow: 2px 2px 6px rgb(192, 191, 191);
+    width: 200px;
+    padding: 10px;
+    top: 40px;
+    left: 5px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.channal-div2:hover .popup{
+    opacity: 1;
+}
+.tiny-img{
+    width: 50px;
+    border-radius: 25px;
+}
+
+.marques{
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.subsc{
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: rgb(163, 163, 163);
+}
+
+.popup-details{
+    margin-left: 5px;
+}
+
+.channal1{
+    width: 38px;
+    border-radius: 30px;
+}
+
+.name, 
+.views{
+    font-weight: 100;
+    color: rgb(96,96,96);
+    font-size: 11px;
+    font-family: sans-serif ;
+}
+
+.say{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.name{
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+.views{
+    margin-top: 5px;
+}
+.timing{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    font-weight: 100;
+    font-size: 11px;
+    font-family: sans-serif;
+    padding: 4px 5px;
+    border-radius: 2px;
+}
+.image-div{
+    position: relative;
+}
